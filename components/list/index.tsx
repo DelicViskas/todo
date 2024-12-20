@@ -1,4 +1,4 @@
-import classes from '@/components/list/List.module.css'
+import classes from '@/components/list/list.module.css'
 import { Todo } from "@/components/ToDoList"
 
 export default function List({ data, delTodo }: {data: Todo[], delTodo: (id:number) => void}) {
