@@ -5,7 +5,7 @@ export default function Sign() {
   const { data: session } = useSession();
 
   return <div className={classes.sign}>
-    <span className={classes.signInfo}>Signed in as <b>{session?.user?.email}</b></span>
+    <span className={classes.signInfo}>Signed in as <b>{session?.user?.name}</b></span>
     <button className={classes.btn} onClick={() => signOut()}>Sign out</button>
   </div>
 }
