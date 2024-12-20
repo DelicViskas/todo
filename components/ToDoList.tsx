@@ -12,7 +12,7 @@ export type Todo = {
 }
 
 
-const API_URL = '/api/todos';
+const API_URL = '/api/todo/todos';
 
 export default function ToDoList() {
   const
